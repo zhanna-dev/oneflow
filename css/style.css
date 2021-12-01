@@ -332,3 +332,23 @@ button {
   border: initial;
   cursor: pointer;
 }
+a {
+  display: inline-flex;
+  color: inherit;
+  text-decoration: none;
+}
+.btn{
+  padding: 11px 17px;
+  background: none;
+  border: solid 1px;
+
+}
+.btn-primary {
+  padding: 11px 17px;
+  background: #FFD063;
+}
+.btn-secondary {
+  padding: 15px 21px;
+  background: #013A4C;
+  color: #ffff;
+}
