@@ -324,3 +324,11 @@ body {
   max-width: 1180px;
   margin: 0 auto;
 }
+button {
+  display: inline-flex;
+  color: inherit;
+  font: inherit;
+  background: none;
+  border: initial;
+  cursor: pointer;
+}
