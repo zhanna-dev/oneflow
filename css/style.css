@@ -353,7 +353,7 @@ a {
   border-radius: 4px;
 }
 .btn-primary:hover {
-  background: none;
+ 
   border: solid 1px #013a4c;
 }
 
@@ -372,11 +372,29 @@ a {
   line-height: 1.3;
 }
 
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+
+}
+
 /***************************common-styles-end**********************************************/
 /* **************************header-start**************************************************/
-.header {
+.header-container {
   display: flex;
-  
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 96px 20px 48px;
+}
+.header-nav-items{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 62px;
+}
+li a:hover {
+text-decoration: underline;
 }
 /* **************************header-end**************************************************/
 
