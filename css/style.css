@@ -357,8 +357,8 @@ a:hover {
   color: #013A4C;
 }
 .btn-primary:hover {
- 
   border: solid 1px #013a4c;
+  color: #FFFFFF;
 }
 
 .btn-secondary {
@@ -473,6 +473,65 @@ gap: 62px;
   height: auto;
 }
 /* ****************************promo-end*********************************************** */
+.collaborate {
+  background: #013A4C;
+  color: #FFFFFF;
+  
+}
+.collaborate-container {
+  background: #D3E8F4;
+  border-radius: 8px;
+  color: #013a4c;
+  padding: 32px 0 75px 93px;
+}
+.collaborate-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 110px;
+}
+.collaborate-title {
+line-height: 1.4;
+font-size: 55px;
+margin-top:165px;
+}
+
+.collaborate-text {
+  font-size: 21px;
+  width: 545px;
+}
+
+.collaborate-box {
+  display: flex;
+  flex-direction: column;
+}
+.collaborate-elements >li::before {
+content:"\2714";
+background: #346170;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+margin-right: 10px;
+
+}
+
+.collaborate-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: 56px;
+  margin-bottom: 35px;
+}
+.collaborate-wrap {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.collaborate-img {
+  width: 420px;
+  height: 420px;
+}
 
 
 
