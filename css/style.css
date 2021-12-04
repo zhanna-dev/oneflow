@@ -398,6 +398,12 @@ justify-content: center;
 align-items: center;
 gap: 62px;
 }
+.header-btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 /* **************************header-end**************************************************/
 /* ***************************hero-start*************************************************/
 .hero {
@@ -429,6 +435,7 @@ gap: 62px;
 .promo {
   background: #013A4C;
   color: #FFFFFF;
+  padding: 80px 0 32px 0;
 }
 .promo-title {
   font-size: 25px;
@@ -473,9 +480,11 @@ gap: 62px;
   height: auto;
 }
 /* ****************************promo-end*********************************************** */
+/* ****************************collaborate-start*************************************** */
 .collaborate {
   background: #013A4C;
   color: #FFFFFF;
+  padding: 150px 180px 107px 107px ;
   
 }
 .collaborate-container {
@@ -486,8 +495,16 @@ gap: 62px;
 }
 .collaborate-items {
   display: flex;
-  justify-content: space-around;
-  gap: 110px;
+  justify-content: space-between;
+  /* gap: 110px; */
+  padding: 30px 96px 0 0;
+}
+.collaborate-items li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
 }
 .collaborate-title {
 line-height: 1.4;
@@ -505,13 +522,13 @@ margin-top:165px;
   flex-direction: column;
 }
 .collaborate-elements >li::before {
-content:"\2714";
-background: #346170;
-border-radius: 50%;
-width: 20px;
-height: 20px;
-margin-right: 10px;
-
+  background: #346170;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: white;
+  content:"\2713";
 }
 
 .collaborate-elements {
@@ -525,13 +542,13 @@ margin-right: 10px;
 .collaborate-wrap {
   display: flex;
   justify-content: space-between;
-
-
+  align-items: center;
 }
 .collaborate-img {
   width: 420px;
   height: 420px;
 }
+/* ****************************collaborate-end******************************************* */
 
 
 
