@@ -465,9 +465,11 @@ gap: 62px;
 .promo-wrap {
  display: flex;
  justify-content: space-between;
+ align-items: flex-start;
+ margin-top: 80px;
 }
 .promo-box {
-  width: 528px;
+  width: 530px;
 }
 .promo-img-lg {
   width: 500px;
