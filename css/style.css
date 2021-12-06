@@ -559,7 +559,21 @@ font-weight: 700;
   margin-top: 32px;
 }
 /* ****************************collaborate-end******************************************* */
-
+/* ****************************advert-start********************************************** */
+.advert {
+background: url(../img/advert.webp) no-repeat 50% 50%/cover;
+width: 100%;
+height: 814px;
+}
+.fa-play{
+  width: 60px;
+  height: 60px;
+  background: #013a4c;
+  border-radius: 50%;
+  max-width: 0 auto;
+ text-align: center;
+}
+/* ****************************advert-end********************************************** */
 
 
 
