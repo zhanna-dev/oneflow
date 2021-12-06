@@ -509,6 +509,10 @@ gap: 62px;
   align-items: center;
   gap: 7px;
 }
+.collaborate-box {
+  padding-bottom: 80px;
+  width: 545px;
+}
 .collaborate-title {
 line-height: 1.4;
 font-size: 55px;
@@ -517,7 +521,6 @@ font-weight: 700;
 
 .collaborate-text {
   font-size: 21px;
-  width: 545px;
   margin-top: 20px;
 }
 
@@ -529,6 +532,9 @@ font-weight: 700;
   margin-right: 10px;
   color: white;
   content:"\2713";
+  display:inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .collaborate-elements {
@@ -536,7 +542,7 @@ font-weight: 700;
   flex-direction: column;
   justify-content: flex-start;
   gap: 8px;
-  margin-top: 56px;
+  margin-top: 55px;
 }
 .collaborate-wrap {
   display: flex;
