@@ -603,9 +603,11 @@ height: 814px;
   font-size: 47px;
   line-height: 1.1;
   font-weight: 700;
+  margin-top: 15px;
 }
 .platform-text {
   margin-top: 34px;
+  font-size: 18px;
 }
 
 .btn-platform {
@@ -620,8 +622,79 @@ height: 814px;
 .platform-card:nth-child(even){
   align-self: flex-start;
 }
-
 /*****************************platform-end**********************************************/
+/* ***************************believe-start*********************************************/
+.believe {
+  background: url(../img/believe-bg.webp) no-repeat 50% / cover;
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+}
+.believe-card {
+  width: 624px;
+  padding: 300px 0;
+}
+.believe-title {
+  font-size: 73px;
+  font-weight: 700;
+}
+.believe-text {
+  font-size: 26px;
+  margin-top: 31px;
+}
+.believe-btn {
+  margin-top: 36px;
+}
+.believe-btn:hover {
+  border: solid 1px white;
+}
+/* ***************************believe-end***********************************************/
+/* ****************************feedback-start********************************************/
+.feedback {
+  color: #013a4c;
+  padding: 100px 0;
+}
+.feedback-wrap {
+  display: flex;
+  gap: 14px;
+  margin-top: 56px;
+}
+.feedback-card {
+    border: 1px solid rgb(214, 223, 226);
+    border-radius: 8px;
+    width: 375px;
+    height: auto;
+    padding: 65px 30px 65px 30px;
+}
+
+
+.feedback-title {
+  font-size: 48px;
+} 
+.feedback-titles-wrap {
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.text-content-elem {
+  color: #89285B;
+  margin-top: 18px;
+  line-height: 1.2;
+}
+.feedback-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 70px;
+}
+
+/* ****************************feedback-end********************************************** */
+
+
+
+
+
 
 
 
@@ -638,7 +711,7 @@ height: 814px;
 /* ***************************uikit-styles*************************************************** */
 
 
-.feedback-card {
+/* .feedback-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -647,18 +720,12 @@ height: 814px;
   padding: 65px 30px 30px 30px;
   border: solid 1px;
   border-radius: 8px;
-}
+} */
 
 .feedback-card a {
   gap: 20px;
 }
-.feedback-box {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 16px;
-  margin-top: 98px;
-}
+
 .feedback-titles-wrap {
   display: flex;
   flex-direction: column;
