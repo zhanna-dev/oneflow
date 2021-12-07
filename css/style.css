@@ -688,8 +688,11 @@ height: 814px;
   gap: 16px;
   margin-top: 70px;
 }
-
 /* ****************************feedback-end********************************************** */
+.integration {
+  padding: 100px 90px;
+}
+
 
 
 
