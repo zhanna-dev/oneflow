@@ -349,6 +349,9 @@ cursor: pointer;
 .btn-sm {
   padding: 11px 17px;
 }
+.btn-micro {
+  padding: 6px 8px;
+}
 .btn-outlined { 
   border: solid 1px #346170;
   background: none;
@@ -656,17 +659,18 @@ height: 814px;
 }
 .feedback-wrap {
   display: flex;
+  justify-content: center;
   gap: 14px;
   margin-top: 56px;
 }
 .feedback-card {
-    border: 1px solid #D6DFE2;
+  border: 1px solid #D6DFE2;
     border-radius: 8px;
     width: 375px;
     height: auto;
     padding: 65px 30px 65px 30px;
+    
 }
-
 
 .feedback-title {
   font-size: 48px;
@@ -688,9 +692,37 @@ height: 814px;
   gap: 16px;
   margin-top: 70px;
 }
+/* .feedback-card a {
+  gap: 20px;
+} */
+
+
 /* ****************************feedback-end********************************************** */
 .integration {
-  padding: 100px 90px;
+  color: #013A4C;
+}
+.integration-title {
+  font-size: 72px;
+  line-height: 1.1;
+}
+.integration-text {  
+  font-size: 21px;
+  margin-top: 30px;
+}
+.integration-box {
+  width: 400px;
+}
+.integration-btn {
+  margin-top: 18px;
+}
+.integration-wrap {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.integration-img {
+  width: 560px;
+  height: auto;
 }
 
 
@@ -713,24 +745,4 @@ height: 814px;
 
 /* ***************************uikit-styles*************************************************** */
 
-
-/* .feedback-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 375px;
-  padding: 65px 30px 30px 30px;
-  border: solid 1px;
-  border-radius: 8px;
-} */
-
-.feedback-card a {
-  gap: 20px;
-}
-
-.feedback-titles-wrap {
-  display: flex;
-  flex-direction: column;
-}
 /********************************************uikit-end******************************************************** 
