@@ -351,6 +351,10 @@ cursor: pointer;
 }
 .btn-micro {
   padding: 6px 8px;
+  border: solid 1px transparent;
+}
+.btn-micro:hover {
+  border: solid 1px;
 }
 .btn-outlined { 
   border: solid 1px #346170;
@@ -386,6 +390,9 @@ border:#013A4C solid 1px;
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
+}
+.card {
+  border-radius: 8px;
 }
 
 /***************************common-styles-end**********************************************/
@@ -725,6 +732,78 @@ align-items: center;
   height: auto;
 }
 /*********************************tricks-start*************************************/
+.tricks-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.tricks-top {
+  display: flex;
+  justify-content: space-between;
+}
+.tricks-subtitle {
+  font-size: 48px;
+  margin-top: 63px;
+}
+.tricks-card {
+  width: 448px;
+  padding-left: 32px;
+
+
+}
+.tricks-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F2DCE4;
+  border-radius: 8px;
+  margin-top: 48px;
+} 
+
+.btn-tricks {
+  background: #B73D8B;
+}
+.tricks-wrap-img {
+  width: 597px;
+  height: auto;
+}
+.tricks-card-box {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  width: 116px;
+}
+.tricks-sm-textborder {
+  border-right: 1px solid;
+  font-size: 10px;
+}
+.tricks-sm-text {
+  font-size: 10px;
+}
+.tricks-bottom-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.tricks-bottomcard-img {
+width: 368px;
+height: 207px;
+}
+.tricks-bottom-card {
+  width: 368px;
+  height: 444px;
+}
+.tricks-bottom-card1 {
+  background:#013A4C;
+}
+.tricks-bottom-card2 {
+ background: #0F5987;
+}
+.tricks-bottom-card3 {
+  background: #F2DCE4;
+}
+.btn-tricks-card {
+  background: #F2DCE4;
+}
 /*********************************tricks-end***************************************/
 
 
