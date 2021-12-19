@@ -845,10 +845,37 @@ align-items: center;
 /*********************************blog-end***********************************************/
 /* *******************************reasons-start*************************************************** */
 .reasons {
-  padding: 250px 0 128px;
+  padding: 250px 0 70px;
 }
 .reason-title {
   font-size: 48px;
   font-weight: bold;
+}
+.reason-img {
+  width: 560px;
+  height: auto;
+}
+.reson-subtitle {
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 18px;
+}
+.reasons-card-text {
+  font-size: 31px;
+  font-weight: 400;
+  letter-spacing: 00.4px;
+  margin-top: 20px;
+}
+.reasons-card {
+width: 560px;
+text-align: center;
+}
+.reasons-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.reasons-btn {
+  margin-top: 20px;
 }
 /*********************************reasons-end******************************************************** 
