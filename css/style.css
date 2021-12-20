@@ -893,7 +893,6 @@ h1 {
 .footer-top {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
 }
 .footer-element {
   display: flex;
@@ -901,12 +900,14 @@ h1 {
   gap: 13px;
   font-size: 16px;
   font-weight: 400;
+ 
 }
 .footer-element-logo {
   margin-right: 190px;
 }
 .footer-element a {
   color: #99b0b7;
+  line-height: 1.3;
 }
 .line {
   border-bottom: solid 1.5px #346170;
