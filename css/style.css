@@ -900,25 +900,37 @@ h1 {
   gap: 13px;
   font-size: 16px;
   font-weight: 400;
- 
 }
 .footer-element-logo {
   margin-right: 190px;
 }
-.footer-element a {
+.footer-element{
   color: #99b0b7;
   line-height: 1.3;
+}
+.footer-element-list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }
 .line {
   border-bottom: solid 1.5px #346170;
   margin-top: 72px;
 }
 .footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   margin-top: 67px;
   line-height: 1.2;
   color: #fff;
 }
-.footer-title {
+.footer-title{
+  font-style: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.footer-subtitle {
   font-size: 23px;
   font-weight: 400;
   letter-spacing: 0.4px;
