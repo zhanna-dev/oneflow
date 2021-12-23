@@ -421,7 +421,7 @@ a:hover {
 /* ***************************hero-start*************************************************/
 .hero {
   padding: 210px 0 310px 0;
-  background: url(/img/hero-bg.webp) no-repeat 70% 70% / cover;
+  background: url(./img/hero-bg.webp) no-repeat 70% 70% / cover;
 }
 .hero-box {
   width: 510px;
