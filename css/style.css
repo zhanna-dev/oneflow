@@ -961,3 +961,77 @@ h1 {
   color: #ffffff;
   width: 110px;
 }
+/********************************footer-end*********************************************/
+/* // `xxl` applies to xx-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // `xl` applies to x-large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+  .header {
+    padding: 25px 25px;
+  }
+  .header-btn-wrap {
+    gap: 30px;
+  }
+  .hero {
+    padding: 210px 0 310px 25px;
+  }
+  .promo {
+    padding: 80px 25px 32px 25px;
+  }
+  .collaborate {
+    padding: 150px 85px 107px 107px;
+  }
+  .advert {
+    background: url(../img/advert.webp) no-repeat 55% 30% / cover;
+    height: 690px;
+  }
+
+  .platform {
+    width: 100%;
+    height: 2400px;
+    background: url(../img/platform-bg.webp) no-repeat 18% / cover;
+    padding: 60px 0 100px;
+  }
+  .believe {
+    background: url(../img/believe-bg.webp) no-repeat 78% / contain;
+  }
+}
+
+/* // `lg` applies to large devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+  .header-nav-items {
+    gap: 10px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .hero-text {
+    font-size: 18px;
+  }
+  .btn-lg {
+    padding: 9px 16px;
+  }
+  .promo-nav {
+    gap: 10px;
+    margin-top: 35px;
+}
+}
+/* // `md` applies to medium devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* // `sm` applies to small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // `xsm` applies to x-small devices (iPhone 5/5s/SE, equals 320px) */
+@media (max-width: 320px) {
+}
