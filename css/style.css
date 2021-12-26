@@ -998,7 +998,7 @@ h1 {
     padding: 60px 0 100px;
   }
   .believe {
-    background: url(../img/believe-bg.webp) no-repeat 78% / contain;
+    background: url(../img/believe-bg.webp) no-repeat 78% / cover;
   }
 }
 
@@ -1034,9 +1034,104 @@ h1 {
   .collaborate {
     padding: 85px 70px 70px 70px;
   }
+  .advert {
+    height: 500px;
+  }
+  .title-platform {
+    font-size: 50px;
+  }
+  .platform-card {
+    width: 50%;
+    margin-top: 69px;
+  }
+  .believe-card {
+    width: 100%;
+    padding: 97px 0;
+  }
+  .believe-title {
+    font-size: 46px;
+  }
+  .believe-text {
+    font-size: 28px;
+    margin-top: 48px;
+  }
+  .feedback-title {
+    font-size: 40px;
+  }
+  .integration-title {
+    font-size: 58px;
+    line-height: 1.1;
+  }
+  .integration-img {
+    width: 50%;
+  }
+  .feedback {
+    padding: 40px 0;
+  }
+  .post-lg .post-title {
+    font-size: 37px;
+  }
+  .post-body {
+    padding: 11px;
+  }
+  .post-footer {
+    font-size: 12px;
+  }
+  .reasons {
+    padding: 90px 0 70px;
+  }
+  .reason-title {
+    font-size: 42px;
+  }
+  .reason-img {
+    width: 97%;
+    height: 260px;
+  }
+  .reasons-card-text {
+    font-size: 25px;
+  }
+  .footer-subtitle {
+    font-size: 23px;
+  }
+  .footer-element-logo {
+    margin-right: 10px;
+  }
 }
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  a {
+    font-size: 26px;
+  }
+  .hero {
+    padding: 80px 0 233px 25px;
+  }
+  .promo-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .promo-subtitle {
+    width: 100%;
+    font-size: 28px;
+  }
+  .promo-text {
+    font-size: 20px;
+    margin-top: 47px;
+  }
+  .collaborate-items {
+    padding: 30px 12px;
+   
+}
+.advert {
+  background: url(../img/advert.webp) no-repeat center / cover;
+}
 }
 
 /* // `sm` applies to small devices (portrait phones, less than 576px) */
