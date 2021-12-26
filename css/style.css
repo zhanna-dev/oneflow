@@ -1127,10 +1127,46 @@ h1 {
   }
   .collaborate-items {
     padding: 30px 12px;
-   
-}
-.advert {
-  background: url(../img/advert.webp) no-repeat center / cover;
+  }
+  .advert {
+    background: url(../img/advert.webp) no-repeat center / cover;
+  }
+  .title-platform {
+    font-size: 40px;
+  }
+  .feedback-wrap {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .feedback-title {
+    font-size: 35px;
+  }
+  .feedback-card {
+    width: 100%;
+    padding: 25px 25px 30px 25px;
+  }
+  .integration-title {
+    font-size: 40px;
+  }
+  .integration-text {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  .blog-head-title {
+    font-size: 35px;
+  }
+  .post-lg .post-title {
+    font-size: 25px;
+  }
+  .post-horizontal .post-img {
+    width: 50%;
+    height: auto;
+  }
+  .posts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 }
 
