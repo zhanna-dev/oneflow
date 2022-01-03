@@ -1217,7 +1217,7 @@ h1 {
     gap: 180px;
   }
   a {
-    font-size: 21px;
+    font-size: 16px;
   }
   h1 {
     font-size: 46px;
@@ -1242,6 +1242,26 @@ h1 {
   }
   .believe-text {
     font-size: 25px;
+  }
+  .footer-img {
+    width: 120px;
+    height: auto;
+  }
+  .footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    line-height: 1;
+    color: #fff;
+  }
+  .footer {
+    padding: 27px 7px 300px;
+    background: #013a4c;
+    color: #fff;
+  }
+  .footer-subtitle {
+    font-size: 35px;
   }
 }
 
