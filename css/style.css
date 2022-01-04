@@ -1175,12 +1175,18 @@ h1 {
   }
   .promo-subtitle {
     width: 100%;
-    font-size: 40px;
+    font-size: 39px;
   }
   .promo-text {
-    font-size: 16px;
-    height: auto;
-    margin-top: 38px;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  .title-platform {
+    width: 100%;
+    font-size: 46px;
+}
+  .advert {
+    height: 352px;
   }
   .post .post-img {
     height: 170px;
