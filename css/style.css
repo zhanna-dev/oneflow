@@ -1183,7 +1183,7 @@ h1 {
   }
   .title-platform {
     width: 100%;
-    font-size: 46px;
+    font-size: 28px;
 }
   .advert {
     height: 352px;
@@ -1194,9 +1194,22 @@ h1 {
   .title-platform {
     width: 567px;
   }
+  .feedback-wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+}
   .believe-text {
     font-size: 25px;
   }
+  .integration-title {
+    font-size: 29px;
+}
+.integration-text {
+  font-size: 16px;
+}
+.blog-head-title {
+  font-size: 31px;
+}
   .footer-img {
     width: 120px;
     height: auto;
