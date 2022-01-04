@@ -1166,18 +1166,12 @@ h1 {
   h1 {
     font-size: 56px;
   }
-
-  .promo-title {
-    font-size: 21px;
-  }
   .post-title {
     font-size: 16px;
   }
   .promo-nav {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+    gap: 51px;
+    margin-top: 35px;
   }
   .promo-subtitle {
     width: 100%;
