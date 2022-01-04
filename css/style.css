@@ -1099,7 +1099,7 @@ h1 {
 }
 /* // `md` applies to medium devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .container {
+  /* .container {
     max-width: 720px;
   }
   .header-container {
@@ -1127,6 +1127,12 @@ h1 {
   .collaborate-items {
     padding: 30px 12px;
   }
+
+  .platform {
+    padding: 0;
+    height: auto;
+  }
+
   .advert {
     background: url(../img/advert.webp) no-repeat center / cover;
   }
@@ -1181,10 +1187,7 @@ h1 {
   .post {
     min-height: 366px;
   }
-  .platform {
-    padding: 0;
-    height: auto;
-  }
+
   .reasons {
     padding: 45px 0 35px;
   }
@@ -1204,7 +1207,7 @@ h1 {
     padding: 70px 15px 300px;
     background: #013a4c;
     color: #fff;
-  }
+  } */
 }
 
 /* // `sm` applies to small devices (portrait phones, less than 576px) */
@@ -1243,6 +1246,9 @@ h1 {
   }
   .post .post-img {
     height: 170px;
+  }
+  .title-platform {
+    width: 567px;
   }
   .believe-text {
     font-size: 25px;
