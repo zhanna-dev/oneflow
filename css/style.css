@@ -1240,6 +1240,9 @@ h1 {
     width: 100%;
     padding: 20px 20px;
   }
+  .post-lg .post-title {
+    font-size: 29px;
+}
   .integration-title {
     font-size: 40px;
   }
