@@ -1181,6 +1181,10 @@ h1 {
   .post {
     min-height: 366px;
   }
+  .platform {
+    padding: 0;
+    height: auto;
+  }
   .reasons {
     padding: 45px 0 35px;
   }
